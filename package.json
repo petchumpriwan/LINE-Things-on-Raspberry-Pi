@@ -1,0 +1,17 @@
+{
+  "name": "line-things-pi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "DEBUG=io,ble node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bleno": "^0.5.0",
+    "debug": "^4.1.1",
+    "onoff": "^3.2.2"
+  }
+}
